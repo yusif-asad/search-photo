@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+
+}
+input{
+    width: 450px;
+    height: 40px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.btn{
+    margin-top: 20px;
+    
+}
+.btn button{
+    padding: 8px;
+    width: 150px;
+    margin: 10px;
+    font-size: 18px;
+}
+
+#imageListWrapper img{
+    width: 200px;
+    height: 200px;
+
+}
